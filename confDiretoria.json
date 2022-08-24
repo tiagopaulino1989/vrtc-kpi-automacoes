@@ -1,0 +1,148 @@
+{
+    "settingsReloadIntervalMinutes": 1,
+    "fullscreen": true,
+    "autoStart": false,
+    "lazyLoadTabs": false,
+    "closeExistingTabs": false,
+    "websites": [
+        {
+            "__comment__":"OPERACIONAL VALIDA",
+            "url": "https://app.powerbi.com/groups/35336e6c-ae7b-456f-b382-d557def8fa6e/reports/5d5f1cef-915a-4c16-8113-8ae2fb2a0daf/ReportSection0190d74fa1e41ab7098b?chromeless=True",
+            "duration": 12,
+            "tabReloadIntervalSeconds": 150
+          },
+          {
+            "__comment__":"GESTÃO DE CADASTRO E CONSULTA",
+            "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/661af3a0-4f81-4334-93c5-5d1e65f7d089/ReportSection46ac17ba842ce96ffa8c?chromeless=True",
+            "duration": 12,
+            "tabReloadIntervalSeconds": 150
+          },
+          {
+            "__comment__":"FUNIL DO PORTAL",
+            "url": "portal.vertticegr.com.br",
+            "duration": 12,
+            "tabReloadIntervalSeconds": 150
+          },
+      
+          {
+            "__comment__":"VEICULOS EM VIAGEM CARREGADOS",
+            "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/3b840a48-107c-456e-b836-e00f90d1693d/ReportSection?chromeless=True",
+            "duration": 12,
+            "tabReloadIntervalSeconds": 150
+          },
+          {
+            "__comment__":"VEICULOS EM VIAGEM VAZIO",
+            "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/0927ee70-4e1d-4ab8-aacd-4ca32792ced5/ReportSection?chromeless=True",
+            "duration": 12,
+            "tabReloadIntervalSeconds": 150
+          },
+
+      { "__comment__":"BASE 01",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/b6c50271-3884-400e-a251-2d456b1c494a/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 300
+      },
+      {
+        "__comment__":"BASE 02",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/0b77fd45-b1cf-418b-a17f-9adba2dbda31/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"BASE CT",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/be91a282-1e47-44d9-ba56-681e3769d2fb/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"BASE TRANSVALE",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/0b7282a2-7362-47f6-aa77-b5b875e2b8d1/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"BASE INSERT",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/d399cde9-2c32-44f5-a522-17ca563a7f86/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"BASE LEALES",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/33e946c3-b560-4a71-ab3f-e1934aca9a6f/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"BAIXO RISCO",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/51424b7a-ca8e-4b52-8ce3-aafce32558b8/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"MÉDIO RISCO",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/b2d6efcb-87f8-4dfa-a6d7-0e5b693bd9a7/ReportSection?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"ALTO RISCO",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/6da17e20-100d-4cf8-89cd-3b3d0044b238?chromeless=True",
+        "duration": 12,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"GESTÃO DE COLETAS E ENTREGAS",
+        "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/78541a58-9172-4834-bd3c-680677b31fb4/ReportSection?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"GESTÃO DE FROTA",
+        "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/9af87f9b-efeb-4313-9374-473049fb2a3d/ReportSection?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"GESTÃO DE LEADTIME",
+        "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/3d96ac3f-6ec9-4db7-9194-91083cdee1b5/ReportSection?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"GESTÃO DE PARADAS",
+        "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/f70c3114-b75c-4f55-8bc2-6a902b0ead21/ReportSection?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150 
+      },
+      {
+        "__comment__":"GESTÃO DE RASTREADORES",
+        "url": "https://app.powerbi.com/groups/fe29f95a-80e2-431d-8054-bb8febce5298/reports/fc145d66-a4fd-442b-b0cd-789fd8df3056?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"PRÉ-VIAGEM",
+        "url": "https://app.powerbi.com/groups/67ba6ab8-65f7-4eee-bccb-f1ad83efea92/reports/c2d8e9e2-33b7-4915-a99d-2680a4ca8910/ReportSection?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"AUDITORIA VALIDA",
+        "url": "https://app.powerbi.com/groups/35336e6c-ae7b-456f-b382-d557def8fa6e/reports/f028225b-8ade-4e88-a50d-77cb4c731df5?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"MONITOR DE OCORRÊNCIAS",
+        "url": "https://app.powerbi.com/groups/35336e6c-ae7b-456f-b382-d557def8fa6e/reports/94f1d58c-5979-4198-8ac2-5bdbbbf99c7e/ReportSection3e6c6be81816c5878b05?chromeless=True",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      },
+      {
+        "__comment__":"MONITOR DE OCORRÊNCIAS",
+        "url": "https://app.powerbi.com/groups/35336e6c-ae7b-456f-b382-d557def8fa6e/reports/94f1d58c-5979-4198-8ac2-5bdbbbf99c7e/ReportSectionae04bc2153052c2e472b?chromeless=Trua",
+        "duration": 10,
+        "tabReloadIntervalSeconds": 150
+      }
+    ]
+  }
