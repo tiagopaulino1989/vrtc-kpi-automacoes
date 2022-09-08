@@ -4,8 +4,45 @@ import os
 import dash 
 from dash import Dash, dcc, html, Input, Output
 
+
+"""
+CONFIGURAÇÕES DE AMBIENTE & CONJUNTOS DE TELAS 
+"""
+
+timing = 60
+
+# PAINÉIS DO VALIDA
+dir_tela_01 = [ 
+    # GESTÃO DE CADASTRO E CONSULTAS
+    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection46ac17ba842ce96ffa8c',
+
+    # GESTÃO DE DIVERGENTES
+    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection1643a733f2fdd815e5f2',
+
+    # OPERACIONAL VALIDA
+    'https://app.powerbi.com/reportEmbed?reportId=5d5f1cef-915a-4c16-8113-8ae2fb2a0daf&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
+]
+
+dir_tela_02 = [
+    
+]
+
+dir_tela_03 = [
+
+]
+
+dir_tela_04 = [
+    
+]
+
+dir_tela_05 = [
+
+]
+
 source = [
+            # GESTÃO DE DIVERGENTES 
             'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
+            # AUDITORIA VALIDA
             'https://app.powerbi.com/reportEmbed?reportId=f028225b-8ade-4e88-a50d-77cb4c731df5&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5', 
         ]
 
@@ -23,6 +60,7 @@ app = Dash(
     ],
 )
 
+
 app.title = "vrtc"
 
 server = app.server
@@ -35,10 +73,14 @@ app.layout = html.Div(
             src=source[0], 
             style={"height": "1095px", "width": "100%"}
         ),
-        dcc.Interval (
+        dcc.Interval(
             id = 'att',
-            interval = 40*1000,
+            interval = timing*1000,
             disabled = False
+        ),
+        dcc.Dropdown(
+            id = 'selecao-tela',
+            options = ['Diretoria: Tela 1', 'Diretoria: Tela 2', 'Diretoria: Tela 3', 'Diretoria: Tela 4', 'Diretoria: Tela 5']
         ),
     ]
 )
