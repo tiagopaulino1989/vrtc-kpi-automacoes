@@ -10,7 +10,7 @@ from dash import Dash, dcc, html, Input, Output
 CONFIGURAÇÕES DE AMBIENTE & CONJUNTOS DE TELAS 
 """
 
-timing = 45
+timing = 40
 
 source  = [ 
     # GESTÃO DE CADASTRO E CONSULTAS
@@ -23,7 +23,7 @@ source  = [
     'https://app.powerbi.com/reportEmbed?reportId=5d5f1cef-915a-4c16-8113-8ae2fb2a0daf&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
 
     # AUDITORIA VALIDA
-    'https://app.powerbi.com/reportEmbed?reportId=f028225b-8ade-4e88-a50d-77cb4c731df5&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5'
+    'https://app.powerbi.com/reportEmbed?reportId=f028225b-8ade-4e88-a50d-77cb4c731df5&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
 ]
 
 

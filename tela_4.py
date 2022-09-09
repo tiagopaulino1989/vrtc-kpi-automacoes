@@ -11,7 +11,7 @@ from dash import Dash, dcc, html, Input, Output
 CONFIGURAÇÕES DE AMBIENTE & CONJUNTOS DE TELAS 
 """
 
-timing = 45
+timing = 40
 
 source  = [ 
 
