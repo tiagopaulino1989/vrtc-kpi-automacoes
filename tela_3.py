@@ -2,6 +2,7 @@ from imp import reload
 from operator import indexOf
 import time
 import os
+from urllib.parse import uses_params
 import dash 
 from dash import Dash, dcc, html, Input, Output
 
@@ -13,17 +14,16 @@ CONFIGURAÇÕES DE AMBIENTE & CONJUNTOS DE TELAS
 timing = 45
 
 source  = [ 
-    # GESTÃO DE CADASTRO E CONSULTAS
-    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection46ac17ba842ce96ffa8c',
 
-    # GESTÃO DE DIVERGENTES
-    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection1643a733f2fdd815e5f2',
+    # COMPARATIVO MONITTORA
+    'https://app.powerbi.com/reportEmbed?reportId=29a6a265-0368-4bdb-ae9e-e86af3da47cb&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
 
-    # OPERACIONAL VALIDA
-    'https://app.powerbi.com/reportEmbed?reportId=5d5f1cef-915a-4c16-8113-8ae2fb2a0daf&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
+    # COMPARATIVO VALIDA
+    'https://app.powerbi.com/reportEmbed?reportId=29a6a265-0368-4bdb-ae9e-e86af3da47cb&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSectionbf046b7d50740a01b3d6',
 
-    # AUDITORIA VALIDA
-    'https://app.powerbi.com/reportEmbed?reportId=f028225b-8ade-4e88-a50d-77cb4c731df5&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5'
+    # NOVOS CLIENTES
+    'https://app.powerbi.com/reportEmbed?reportId=29a6a265-0368-4bdb-ae9e-e86af3da47cb&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSectionb0cfdc025e90ed8f547b',
+
 ]
 
 
@@ -86,4 +86,4 @@ SERVER-START
 
 if __name__ == "__main__":
     app.run_server(debug=False)
-    # app.run_server(debug=True, port=8051, use_reloader=True)
+    # app.run_server(debug=True, port=8053, use_reloader=True)
