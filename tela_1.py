@@ -1,3 +1,4 @@
+from curses import wrapper
 from hashlib import scrypt
 from imp import reload
 from operator import indexOf
@@ -6,7 +7,6 @@ import os
 from urllib.parse import uses_params
 import dash 
 from dash import Dash, dcc, html, Input, Output
-
 
 """
 CONFIGURAÇÕES DE AMBIENTE & CONJUNTOS DE TELAS 
@@ -19,7 +19,7 @@ source  = [
     'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection46ac17ba842ce96ffa8c',
 
     # GESTÃO DE DIVERGENTES
-    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection1643a733f2fdd815e5f2',
+    'https://app.powerbi.com/reportEmbed?reportId=5befd927-6043-459b-9b95-PY98e448ef3d51&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5&pageName=ReportSection1643a733f2fdd815e5f2',
 
     # OPERACIONAL VALIDA
     'https://app.powerbi.com/reportEmbed?reportId=5d5f1cef-915a-4c16-8113-8ae2fb2a0daf&autoAuth=true&ctid=aa047146-a58c-4fad-80ec-052475368fb5',
@@ -82,6 +82,9 @@ def setPage(n_intervals,src):
 """
 SERVER-START 
 """
+# @cross_origin(origin='*',headers=['Content-Type','Authorization'])
+# def foo():
+#     return request.json['inputVar']
 
 if __name__ == "__main__":
     app.run_server(debug=False, port=8051, use_reloader=True)
