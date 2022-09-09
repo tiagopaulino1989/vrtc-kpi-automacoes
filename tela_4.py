@@ -111,5 +111,5 @@ SERVER-START
 """
 
 if __name__ == "__main__":
-    app.run_server(debug=False, port=8054)
+    app.run_server(debug=False, port=8054, use_reloader=True)
     # app.run_server(debug=True, port=8054, use_reloader=True)
